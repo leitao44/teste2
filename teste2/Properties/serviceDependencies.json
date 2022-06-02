@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ugtf.database.windows.net"
+    },
+    "compute.appService1": {
+      "group": "connections",
+      "type": "compute.appService"
+    }
+  }
+}
